@@ -17,7 +17,7 @@ class Homepage extends Component {
           <div className="card-content grey-text text-darken-3">
             <span className="card-title">ABC Sdn. Bhd.</span>
             <p style={{ fontSize: "1.3em" }}>Junior Software Engineer</p>
-            <p>Job details goes here.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugit alias odio perspiciatis blanditiis at eum esse consequuntur, error accusantium expedita quidem architecto mollitia ad incidunt. Repellat dolor ipsam nemo.</p>
             <p className="grey-text">Posted on 3rd October, 2pm</p>
             {applyBtn}
           </div>
@@ -27,7 +27,7 @@ class Homepage extends Component {
           <div className="card-content grey-text text-darken-3">
             <span className="card-title">DEF Sdn. Bhd.</span>
             <p style={{ fontSize: "1.3em" }}>Front Office Assistant</p>
-            <p>Job details goes here.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugit alias odio perspiciatis blanditiis at eum esse consequuntur, error accusantium expedita quidem architecto mollitia ad incidunt. Repellat dolor ipsam nemo.</p>
             <p className="grey-text">Posted on 9th October, 1pm</p>
             {applyBtn}
           </div>
@@ -37,7 +37,7 @@ class Homepage extends Component {
           <div className="card-content grey-text text-darken-3">
             <span className="card-title">GHI Sdn. Bhd.</span>
             <p style={{ fontSize: "1.3em" }}>Project Engineer</p>
-            <p>Job details goes here.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugit alias odio perspiciatis blanditiis at eum esse consequuntur, error accusantium expedita quidem architecto mollitia ad incidunt. Repellat dolor ipsam nemo.</p>
             <p className="grey-text">Posted on 21rd October, 10am</p>
             {applyBtn}
           </div>
