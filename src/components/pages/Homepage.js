@@ -6,11 +6,13 @@ class Homepage extends Component {
   render() {
     const { auth } = this.props;
     const applyBtn = auth.uid ? <ApplyButton /> : null;
+    const title = auth.uid ? <h1>Welcome {this.props.profile.firstname}!</h1> : <h1>Please Sign In to Apply for Jobs</h1>
     return (
       <div
         className="job-list container"
         style={{ marginTop: "2em", height: "100vh" }}
       >
+        <h1>{title}</h1>
         <div className="card z-depth-0 job-description">
           <div className="card-content grey-text text-darken-3">
             <span className="card-title">ABC Sdn. Bhd.</span>
@@ -48,7 +50,8 @@ class Homepage extends Component {
 const mapStateToProps = state => {
   console.log(state);
   return {
-    auth: state.firebase.auth
+    auth: state.firebase.auth,
+    profile: state.firebase.profile
   };
 };
 
