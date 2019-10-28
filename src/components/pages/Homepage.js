@@ -10,7 +10,7 @@ class Homepage extends Component {
     return (
       <div
         className="job-list container"
-        style={{ marginTop: "2em", height: "100vh" }}
+        style={{ marginTop: "2em", height: "100%", paddingBottom: "8em" }}
       >
         <h1>{title}</h1>
         <div className="card z-depth-0 job-description">
